@@ -1,0 +1,22 @@
+[
+  {"name": "login_valid", "status": "pass", "duration_ms": 420},
+  {"name": "login_invalid", "status": "fail", "duration_ms": 610, "error": "Timeout"},
+  {"name": "login_invalid", "status": "pass", "duration_ms": 610, "error": "Timeout"},
+  {"name": "login_valid", "status": "pass", "duration_ms": 435},
+  {"name": "search_basic", "duration_ms": 300},
+  {"name": "search_basic"},
+  {"name": "Create_mandatory_fields", "status": "pass", "duration_ms": 420},
+  {"name": "Create_all_fields", "status": "pass", "duration_ms": 560},
+  {"name": "search_advanced", "duration_ms": 400},
+  {"name": "search_advanced", "duration_ms": 400, "error": "Invalid results"},
+  {"name": "login_valid", "status": "fail", "duration_ms": 220},
+  {"name": "login_invalid", "status": "fail", "duration_ms": 610, "error": "Timeout"},
+  {"name": "login_invalid", "status": "skipped", "duration_ms": 610, "error": "Exception"},
+  {"name": "login_valid", "status": "pass", "duration_ms": 885},
+  {"name": "search_basic", "duration_ms": 200},
+  {"name": "search_basic"},
+  {"name": "Create_mandatory_fields", "status": "pass", "duration_ms": 420},
+  {"name": "Create_all_fields", "status": "skipped", "duration_ms": 560},
+  {"name": "search_advanced_al_filters", "duration_ms": 400},
+  {"name": "search_advanced_one_filter", "status": "fail", "duration_ms": 200, "error": "Invalid search results"}
+]
