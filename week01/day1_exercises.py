@@ -17,5 +17,5 @@ input_str = "  Login_Test_Failed  "
 print(input_str.strip().lower().replace('_', ' '))
 
 tests = ["login test", "logout", "signup", "reset password", "login with invalid credentials"]
-count = sum(1 for test in tests if 'login' in test)
+count = sum(1 for test in tests if 'login' in test.lower())
 print(f'Number of tests containing "login": {count}')
